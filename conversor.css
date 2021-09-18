@@ -1,0 +1,61 @@
+body {
+    font-family: Roboto;
+    background: -webkit-linear-gradient(to left, #414047, #414047); /* descobrir essas tegs*/
+    background: linear-gradient(to left, #414047, #414047);
+}
+
+#container {
+    margin: 0 auto;
+    width: auto;
+    display: table;     /* entender esse display*/
+    text-align: center;
+}
+
+#convert {
+    margin-top: 2%;
+    background-color: #f50057;
+}
+
+#clear{
+    margin-top: 2%;
+    background-color: #f50057;
+}
+
+#convert:houver {
+    background-color: #f50057;
+}
+
+h1 {
+    font-family: sans-serif;
+    color: #f9a826;
+}
+
+input {
+    display: block;
+    padding: 10px;
+    margin-top: 10px;
+    font-size: 2em;
+    color: #f9a826;
+    font-family: cursive, sans-serif;
+}
+
+::-webkit-input-placeholder {
+    color: #414047;
+}
+:-moz-placeholder { /* Firefox 18-*/
+    color: #414047;
+}
+::-moz-placeholder { /* Firefox 19+*/
+    color: #414047;
+}
+
+
+:-ms-input-placeholder {
+    color: #414047;
+}
+
+button {
+    padding: 10px;
+    font-size: 1.2em;
+    color: #ffffff;
+}
